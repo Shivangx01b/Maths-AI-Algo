@@ -33,11 +33,11 @@ Maths-AI-Algo
             ```
     - b) Call transformer trained model
           - Request
-            ```
-              curl --location 'http://localhost:8000/query-ai-bot' \
-                    --header 'Content-Type: application/json' \
-                    --data '{"useranswer":"2196", "conversation": "'\''[{'\''user'\'': '\''I don'\''t want to do math'\'', '\''bot'\'': '\''Hey there! 🌟 I'\''m Zoe, your friendly AI-Tutor, here to make math a bit more fun. 😊 What grade and state are you studying in? Let'\''s tackle some math together! What topic are you on?'\'', '\''date'\'': '\''2024-03-01T18:11:28.267Z'\''}, {'\''user'\'': '\''I hate math'\'', '\''bot'\'': '\''Oh no, hate is such a strong word! 😅 But hey, no pressure. Maybe we can find a way to make it a bit more enjoyable. What part of math is giving you trouble? Let'\''s chat about it! 🤓'\'', '\''date'\'': '\''2024-03-01T18:11:46.878Z'\''}, {'\''user'\'': '\''what is 61 times 36 ?'\'', '\''bot'\'': '\''Sure, to find that, you multiply 61 by 36. What do you get? 🧮'\'', '\''date'\'': '\''2024-03-01T18:12:30.740Z'\''}, {'\''user'\'': '\''But why 36?'\'', '\''bot'\'': '\''Beacause it says 62 time 36, so it means multiply'\'', '\''date'\'': '\''2024-03-01T18:12:48.001Z'\''}]'\''"}'
-            ``` 
+              ```
+                curl --location 'http://localhost:8000/query-ai-bot' \
+                      --header 'Content-Type: application/json' \
+                      --data '{"useranswer":"2196", "conversation": "'\''[{'\''user'\'': '\''I don'\''t want to do math'\'', '\''bot'\'': '\''Hey there! 🌟 I'\''m Zoe, your friendly AI-Tutor, here to make math a bit more fun. 😊 What grade and state are you studying in? Let'\''s tackle some math together! What topic are you on?'\'', '\''date'\'': '\''2024-03-01T18:11:28.267Z'\''}, {'\''user'\'': '\''I hate math'\'', '\''bot'\'': '\''Oh no, hate is such a strong word! 😅 But hey, no pressure. Maybe we can find a way to make it a bit more enjoyable. What part of math is giving you trouble? Let'\''s chat about it! 🤓'\'', '\''date'\'': '\''2024-03-01T18:11:46.878Z'\''}, {'\''user'\'': '\''what is 61 times 36 ?'\'', '\''bot'\'': '\''Sure, to find that, you multiply 61 by 36. What do you get? 🧮'\'', '\''date'\'': '\''2024-03-01T18:12:30.740Z'\''}, {'\''user'\'': '\''But why 36?'\'', '\''bot'\'': '\''Beacause it says 62 time 36, so it means multiply'\'', '\''date'\'': '\''2024-03-01T18:12:48.001Z'\''}]'\''"}'
+              ``` 
 
 
 # Explaning How this transformer bot works
