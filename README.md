@@ -59,8 +59,45 @@ Maths-AI-Algo
               "useranswer": "2196"
           }
             ```
-              
 
+
+
+# Explaning two Solutions
+
+## Solution 1 using only GPT4
+
+- We have 5 agents
+
+- One agent for doing pre flight checks to see if any image found -> feed to gpt 4 vision to get question back
+
+- Once image if found -> Send to agent 2 to convert the whole converstation to original maths question
+
+- Then next third agent to solve maths
+
+- Then last agent to cross check the input by user and solution given by third agent -> Mark as EQUIVALENT or NOT_EQUIVALENT
+
+
+- Way to Improve
+  -  Refine prompt given to each agent
+  -  Using Langraph for better agent decisions
+
+
+## Solution 2 using Transformer trained Model with Gpt 4 for parsing
+
+- We have trained a Transformer based model using pytorch (Please refer to 'Explaning How this transformer bot works' to understand how this works)
+  
+- We take one agent or doing pre flight checks to see if any image found -> feed to gpt 4 vision to get question back
+  
+- Once image if found -> Send to agent 2 to convert the whole converstation to original maths question
+
+- Then we feed this question to our trained model -> Get answer
+
+- Then last agent to cross check the input by user and solution given by third agent -> Mark as EQUIVALENT or NOT_EQUIVALENT
+
+- Way to Improve
+  -  Train on more dataset, currently data is is only 1500 random maths questions
+  -  Use MultiHead Attention then SelfAttention
+  -  Using best model saving in each epoch of training
 
 # Explaning How this transformer bot works
 
