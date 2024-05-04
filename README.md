@@ -7,6 +7,38 @@ Maths-AI-Algo
   <br>
 </h1>
 
+# How to run the code 
+
+- Note: Docker not added a build for ai bot will be huge ... for cuda based system
+
+- Step 1
+  ```
+  pip install -r requirements.txt
+  ```
+- Step 2
+  ```
+  export OPENAI_API_KEY="<your gpt4 keys"
+  ```
+- Step 3
+  ```
+  uvicorn main:app --reload
+  ```
+- Step 4
+    - a) Call full llm based solution
+         - Request
+             ```
+             curl --location 'http://localhost:8000/query-llm' \
+          --header 'Content-Type: application/json' \
+          --data '{"useranswer":"20 and 18", "conversation": "'\''[{'\''user'\'': '\''I am in 7th grade'\'', '\''bot'\'': '\''Hi there! I'\''m Zoe, your AI-Tutor, ready to help you out! 🌟 What subject or topic can I assist you with today?'\'', '\''date'\'': '\''2024-02-01T03:15:48.962Z'\''}, {'\''user'\'': '\''I live in California'\'', '\''bot'\'': '\''Awesome! California is a great place. 🌴 What'\''s the topic or subject you'\''re working on?'\'', '\''date'\'': '\''2024-02-01T03:16:13.529Z'\''}, {'\''user'\'': '\''Common core'\'', '\''bot'\'': '\''Got it! Common Core has lots of areas. Which part are you focusing on? Math, English, or something else? 😊'\'', '\''date'\'': '\''2024-02-01T03:16:44.316Z'\''}, {'\''user'\'': '\''Math'\'', '\''bot'\'': '\''Great, I love math! 🧮 What specific math concept are you studying right now?'\'', '\''date'\'': '\''2024-02-01T03:16:54.172Z'\''}, {'\''user'\'': [{'\''type'\'': '\''text'\'', '\''text'\'': '\'''\''}, {'\''type'\'': '\''image_url'\'', '\''image_url'\'': {'\''url'\'': '\''https://zoe-images.s3.amazonaws.com/file_415_1706757494.jpg'\''}}], '\''bot'\'': '\''Looks like we'\''re working with algebra! Have you tried setting up an equation for this problem yet? 🤔'\'', '\''date'\'': '\''2024-02-01T03:18:20.759Z'\''}, {'\''user'\'': '\''No'\'', '\''bot'\'': '\''No problem! Let'\''s start by identifying what '\''x'\'' represents in this scenario. Any ideas? 🕵️\u200d♀️✨'\'', '\''date'\'': '\''2024-02-01T03:18:37.870Z'\''}, {'\''user'\'': '\''68'\'', '\''bot'\'': '\''I see you mentioned the number 68. If we'\''re setting up the equation for the problem, '\''x'\'' would represent Daniel'\''s spending. Tracy spent $38 less than 3 times what Daniel spent. Can you try to express this as an equation using '\''x'\''? 🧐💡'\'', '\''date'\'': '\''2024-02-01T03:19:54.779Z'\''}, {'\''user'\'': '\''3x-38'\'', '\''bot'\'': '\''That'\''s a great start! Now, how can we solve for '\''x'\'' in the equation you'\''ve written? 🤔🔍'\'', '\''date'\'': '\''2024-02-01T03:20:24.326Z'\''}]'\''"}'
+            ```
+    - b) Call transformer trained model
+          - Request
+            ```
+              curl --location 'http://localhost:8000/query-ai-bot' \
+--header 'Content-Type: application/json' \
+--data '{"useranswer":"2196", "conversation": "'\''[{'\''user'\'': '\''I don'\''t want to do math'\'', '\''bot'\'': '\''Hey there! 🌟 I'\''m Zoe, your friendly AI-Tutor, here to make math a bit more fun. 😊 What grade and state are you studying in? Let'\''s tackle some math together! What topic are you on?'\'', '\''date'\'': '\''2024-03-01T18:11:28.267Z'\''}, {'\''user'\'': '\''I hate math'\'', '\''bot'\'': '\''Oh no, hate is such a strong word! 😅 But hey, no pressure. Maybe we can find a way to make it a bit more enjoyable. What part of math is giving you trouble? Let'\''s chat about it! 🤓'\'', '\''date'\'': '\''2024-03-01T18:11:46.878Z'\''}, {'\''user'\'': '\''what is 61 times 36 ?'\'', '\''bot'\'': '\''Sure, to find that, you multiply 61 by 36. What do you get? 🧮'\'', '\''date'\'': '\''2024-03-01T18:12:30.740Z'\''}, {'\''user'\'': '\''But why 36?'\'', '\''bot'\'': '\''Beacause it says 62 time 36, so it means multiply'\'', '\''date'\'': '\''2024-03-01T18:12:48.001Z'\''}]'\''"}'
+            ``` 
+
 
 # Explaning How this transformer bot works
 
