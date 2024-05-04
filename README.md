@@ -3,7 +3,7 @@ Maths-AI-Algo
 
 <h1 align="center">
   <br>
-  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="200px;"></a>
+  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="1200px;"></a>
   <br>
 </h1>
 
