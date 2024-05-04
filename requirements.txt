@@ -1,0 +1,4 @@
+numexpr
+fastapi
+langchain==0.1.0
+langchainhub
