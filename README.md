@@ -64,6 +64,19 @@ Maths-AI-Algo
 
 # Explaning two Solutions
 
+## Why two different solution (My thought process)
+
+- We had to create a AI based system which can understand the conversation of user and bot
+    - Answer: Can make parser to fetch image and history, Can use gpt4 for parsing
+- Can do computation
+    - Answer: Can train a transformer based model (becasuse transformers can understand complex relations) or can use gpt4 based agent with specific prompt to give it understanding. 
+- Can verify the the answer
+    - Answer: Can use gpt4 agent to veirfy the trained AI answer and user's answer
+- Accuracy should be really good
+    - Answer: Trained model (Transformer) when trained and infrenced with GPU can be good and fast.
+
+
+
 ## Solution 1 using only GPT4
 
 - We have 5 agents
@@ -80,6 +93,7 @@ Maths-AI-Algo
 - Way to Improve
   -  Refine prompt given to each agent
   -  Using Langraph for better agent decisions
+  -  Make parser to feect image and converstation instead of using GPT4
 
 
 ## Solution 2 using Transformer trained Model with Gpt 4 for parsing
@@ -98,6 +112,7 @@ Maths-AI-Algo
   -  Train on more dataset, currently data is is only 1500 random maths questions
   -  Use MultiHead Attention then SelfAttention
   -  Using best model saving in each epoch of training
+  -  Make parser to feect image and converstation instead of using GPT4
 
 # Explaning How this transformer bot works
 
