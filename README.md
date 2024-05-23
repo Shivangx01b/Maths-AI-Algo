@@ -4,13 +4,13 @@ Maths-AI-Algo
 
 <h1 align="center">
   <br>
-  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/Maths_AI_Algo_Logo.png" alt="" width="1200px;"></a>
+  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/Maths_AI_Algo_Logo.png" alt="" width="500px;"></a>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="1200px;"></a>
+  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="300px;"></a>
   <br>
 </h2>
 
