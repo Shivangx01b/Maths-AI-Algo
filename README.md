@@ -8,11 +8,6 @@ Maths-AI-Algo
   <br>
 </h1>
 
-<h2 align="center">
-  <br>
-  <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="1200px;"></a>
-  <br>
-</h2>
 
 # How to run the code 
 
