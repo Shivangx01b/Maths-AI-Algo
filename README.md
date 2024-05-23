@@ -1,11 +1,18 @@
 # Maths-AI-Algo-Task
 Maths-AI-Algo
 
+
 <h1 align="center">
+  <br>
+  <a href=""><img src="DALL·E 2024-05-23 21.51.06 - Create a refined and unique logo for 'Maths AI Algo'. The logo should have a modern and clean look, with a distinctive feature that stands out. Incorp.webp" alt="" width="1200px;"></a>
+  <br>
+</h1>
+
+<h2 align="center">
   <br>
   <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="1200px;"></a>
   <br>
-</h1>
+</h2>
 
 # How to run the code 
 
