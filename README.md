@@ -1,5 +1,7 @@
-# Maths-AI-Algo-Task
-Maths-AI-Algo
+# Maths-AI-Algo
+
+Beating GPT4 with using GPT4 Agent + Self Trained Transformer
+
 
 
 <h1 align="center">
