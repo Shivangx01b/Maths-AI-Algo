@@ -2,6 +2,8 @@
 
 Beating GPT4 Capability with multi Agent + Self Trained Transformer
 
+Can answer maths questions from text, pictures videos
+
 
 
 <h1 align="center">
