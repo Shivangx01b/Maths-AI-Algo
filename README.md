@@ -1,6 +1,6 @@
 # Maths-AI-Algo
 
-Beating GPT4 Capability with using GPT4 Agent + Self Trained Transformer
+Beating GPT4 Capability with multi Agent + Self Trained Transformer
 
 
 
