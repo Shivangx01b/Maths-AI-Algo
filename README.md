@@ -4,7 +4,7 @@ Maths-AI-Algo
 
 <h1 align="center">
   <br>
-  <a href=""><img src="DALL·E 2024-05-23 21.51.06 - Create a refined and unique logo for 'Maths AI Algo'. The logo should have a modern and clean look, with a distinctive feature that stands out. Incorp.webp" alt="" width="1200px;"></a>
+  <a href=""><img src="Maths_AI_Algo_Logo.png" alt="" width="1200px;"></a>
   <br>
 </h1>
 
