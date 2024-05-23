@@ -10,6 +10,8 @@ Beating GPT4 Capability with using GPT4 Agent + Self Trained Transformer
   <br>
 </h1>
 
+# How it works
+
 <h2 align="center">
   <br>
   <a href=""><img src="https://github.com/Shivangx01b/Maths-AI-Algo-Task/blob/main/static/logo.png" alt="" width="300px;"></a>
